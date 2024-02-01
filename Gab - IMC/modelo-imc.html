@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta http-equiv="refresh" content="1.0">   -->
+    <title>IMC</title>
+    <link rel="stylesheet" href= "estilo-imc.css">
+    
+    
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <section>
+        <h1 id = "titulo"> Calculadora - IMC</h1>
+        <div id = "area">  
+            <h1> Nome:
+                <input type = "text" name = "nome" id="txtnome">
+            </h1>
+
+            <h1> Altura(cm):
+                <input type = "number" name = "altura" id="txtaltura" >
+            </h1>
+
+            <h1> Peso:
+                <input type = "number" name = "peso" id="txtpeso" >
+            </h1>
+            
+        </div>
+        <div id="bot">
+        <input type = "button" value = "Calcular" name = "calc" id="calc" onclick="calcular()"> 
+        <input type = "button" value = "Limpar" name = "limp" id="limp" onclick="limpar()"> 
+        </div>
+        <div id = "res"> O resultado aparecera aqui!
+        </div>
+   
+    </section>
+
+    <footer>
+        <p id = "nome"> &copy; Gabriel Oliveira </p>
+    </footer>
+
+    <script src= "script-imc.js">  </script>
+</body>
+</html>
